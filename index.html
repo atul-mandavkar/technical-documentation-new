@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Technical Documentation project</title>
+    <link rel="stylesheet" href="./public/style.css" />
+    <!-- For making website mobile friendly use meta tag with viewport and use max-device-width property -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <main>
+      <aside id="asideSec">
+        <h1>JS Documentation</h1>
+        <table id="navTable">
+          <tr class="asideRow">
+            <td>
+              <a href="#sec1">
+                introduction
+              </a>
+            </td>
+          </tr>
+          <tr class="asideRow">
+            <td>
+              <a href="#sec2">
+                What you should already know
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#sec3">
+                data types
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#sec4">
+                while statement
+              </a>
+            </td>
+          </tr>
+          <td>
+            <a href="#sec5">
+              function declarations
+            </a>
+          </td>
+        </tr>
+        </table>
+      </aside>
+      <article id="articleSec">
+        <div class="section">
+          <h2 class="sectionHeading" id="sec1">
+            introduction
+          </h2>
+          <p class="sectionParagraph">
+            JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:<br>
+            <ul>
+              <li>
+                Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM).
+              </li>
+              <li>
+                Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div class="section">
+          <h2 class="sectionHeading" id="sec2">
+            what you should already know
+          </h2>
+          <p class="sectionParagraph">
+            This guide assumes you have the following basic background:<br>
+            <ul>
+              <li>
+                A general understanding of the Internet and the World Wide Web (WWW).
+              </li>
+              <li>
+                Good working knowledge of HyperText Markup Language (HTML).
+              </li>
+              <li>
+                Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div class="section">
+          <h2 class="sectionHeading" id="sec3">
+            data types
+          </h2>
+          <p class="sectionParagraph">
+            The latest ECMAScript standard defines seven data types:<br>
+            <ul>
+              <li>
+                Six data types that are primitives<br>
+                <ul>
+                  <li>
+                    Boolean. true and false.
+                  </li>
+                  <li>
+                    null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.
+                  </li>
+                  <li>
+                    undefined. A top-level property whose value is undefined.
+                  </li>
+                  <li>
+                    Number. 42 or 3.14159
+                  </li>
+                  <li>
+                    String. "Howdy"
+                  </li>
+                  <li>
+                    Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                and Object
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div class="section">
+          <h2 class="sectionHeading" id="sec4">
+            While statement
+          </h2>
+          <p class="sectionParagraph">
+            A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:<br>
+            With each iteration, the loop increments n and adds that value to x. Therefore, x and n take on the following values<br>
+            <ul>
+              <li>
+                After the first pass: n = 1 and x = 1
+              </li>
+              <li>
+                After the second pass: n = 2 and x = 3
+              </li>
+              <li>
+                After the third pass: n = 3 and x = 6
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div class="section">
+          <h2 class="sectionHeading" id="sec5">
+            Function declarations
+          </h2>
+          <p class="sectionParagraph">
+            A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:<br>
+            <ul>
+              <li>
+                The name of the function.
+              </li>
+              <li>
+                A list of arguments to the function, enclosed in parentheses and separated by commas.
+              </li>
+              <li>
+                The JavaScript statements that define the function, enclosed in curly brackets, { }.
+              </li>
+            </ul>
+          </p>
+        </div>
+        <!--
+          <div class="section">
+          <h2 class="sectionHeading">
+          </h2>
+          <p class="sectionParagraph">
+          </p>
+        </div>
+        -->
+      </article>
+    </main>
+  </body>
+</html>
