@@ -61,6 +61,7 @@ article > div{
     position: relative;
     border-right: none;
     border-bottom: 5px dashed black;
+    background-color: red;
   }
   aside > table{
     height: 40px;
