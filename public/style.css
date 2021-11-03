@@ -23,11 +23,17 @@ article{
 @media screen and (max-device-width: 600px) {
   main{
     flex-direction: column;
+    width: 100%;
   }
   aside{
-    position: absolute;
+    position: relative;
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid;
   }
   article{
-    position: absolute;
+    position: relative;
+    width: 100%;
+    left: 0%;
   }
 }
