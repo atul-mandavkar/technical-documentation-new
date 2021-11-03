@@ -1,8 +1,33 @@
 main{
   width: 100%;
   height: auto;
+  display: flex;
+  flex-direction: row;
+}
+aside{
+  position: fixed;
+  top: 0%;
+  width: 35%;
+  height: 100%;
+  border-right: 1px solid black;
+  flex: 1;
+}
+article{
+  position: absolute;
+  left: 36%;
+  width: 65%;
+  height: auto;
+  flex: 1;
 }
 
 @media screen and (max-device-width: 600px) {
-  
+  main{
+    flex-direction: column;
+  }
+  aside{
+    position: absolute;
+  }
+  article{
+    position: absolute;
+  }
 }
